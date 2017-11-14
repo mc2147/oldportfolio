@@ -1,0 +1,72 @@
+body {
+	font-family: 'Muli', sans-serif;
+	margin: 0; 
+	padding; 0; 
+	width: 100%; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+#homepage-about-title {
+	text-align: center;
+}
+
+#homepage-about-item-container {
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+}
+
+.homepage-about-item {
+	width: 33.33%;
+	height: 50px;
+	line-height: 42px;
+	text-align: center;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.25);
+}
+
+.homepage-link {
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+}
+
+.homepage-link:visited {
+	color: white;
+}
+
+#homepage-link-portfolio {
+	background-color: rgba(19, 91, 204, 1);
+}
+
+#homepage-link-portfolio:hover {
+	border-bottom: 5px solid rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.15);
+}
+
+#homepage-link-business {
+	background-color: black; 
+	border-bottom: 5px solid rgba(255, 255, 255, 0.25);
+}
+
+#homepage-link-business:hover {
+	border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.15);
+}
+
+#homepage-link-personal {
+	background-color: rgba(0, 217, 66, 1);
+}
+
+#homepage-link-personal:hover {
+	border-bottom: 5px solid rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 0.15);
+}
