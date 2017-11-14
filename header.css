@@ -5,6 +5,15 @@ body {
 	width: 100%; 
 }
 
+#site-title {
+	text-decoration: none;
+	color: black;
+}
+
+#site-title:hover, #site-title:visited {
+	color: black;
+}
+
 a {
 	text-decoration: none;
 }
