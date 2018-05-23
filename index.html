@@ -9,6 +9,22 @@
 	<link href="homepage.css" rel="stylesheet">
 </head>
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	.mySlides{
+		display:none;
+		padding-left:20vw;
+		padding-right:20vw;
+	}
+	.w3-left,.w3-right,.w3-badge{
+		cursor:pointer
+	}
+	.w3-badge{
+		height:13px;width:13px;padding:0
+	}
+	.entry-meta,.entry-meta a{
+		font-family:"Lato",sans-serif
+	}@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9;} to { opacity:1; } }@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9;} to { opacity:1; } }@keyframes fadeIn { from { opacity:0; opacity: 1\9; } to { opacity:1; } }.fade-in{opacity:0;-webkit-animation:fadeIn ease-in 1;-moz-animation:fadeIn ease-in 1;animation:fadeIn ease-in 1;-webkit-animation-fill-mode:forwards;-moz-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:1s;-moz-animation-duration:1s;animation-duration:1s}.fade-in.delay{-webkit-animation-delay:.5s;-moz-animation-delay:.5s;animation-delay:.5s}</style>
 
 <body>
 	<div id='homepage-about'>
@@ -17,28 +33,125 @@
 			<h1 id='homepage-about-title'><a href='index.html' id='site-title'>Matthew Chan</a></h1>
 
 			<div> 
-				<p>I'm a freelance programmer who builds <a class='homepage-about-link' href='https://www.supportandresist.com/'>trading algorithms</a> and <a class='homepage-about-link' href='https://www.alloystrengthtraining.com/'>web applications</a> for a living and enjoys <a class='homepage-about-link' href='https://www.youtube.com/watch?v=56-pdZRry7o'>combat sports</a> in his spare time.<br>Learn more about me and my work by checking out the links below!</p>
+				<p>I'm a freelance programmer who builds <a class='homepage-about-link' href='https://www.supportandresist.com/'>trading algorithms</a> and <a class='homepage-about-link' href='https://www.alloystrengthtraining.com/'>web applications</a> for a living and enjoys <a class='homepage-about-link' href='https://www.youtube.com/watch?v=56-pdZRry7o'>combat sports</a> in his spare time. Learn more about me by clicking the links below!
+				</p>
 			</div>
 		</div>
-
 		<div id='homepage-about-item-container'>
+			<div id='homepage-link-testimonials' class='homepage-about-item'>
+				<a class='homepage-link' href='#testimonials'>Client Testimonials</a>
+			</div>
 			<div id='homepage-link-portfolio' class='homepage-about-item'>
 				<a class='homepage-link' href='#web-applications'>Web Applications</a>
 			</div>
 
 			<div id='homepage-link-business' class='homepage-about-item'>
-				<a class='homepage-link' href='#business'>Business</a>
+				<a class='homepage-link' href='#business'>Trading Algorithms</a>
 			</div>
-
 			<div id='homepage-link-personal' class='homepage-about-item'>
 				<a class='homepage-link' href='#personal'>Personal</a>
 			</div>
-		</div>
-
-<!-- 		<img src='portfolio-images/homepage.png' id='homepage-about-image'> -->
+		</div>		
 		
-	</div>
+		<div class="w3-content w3-display-container" style="width:100%; max-width:100%; padding-top:10px; 
+		height:500px; padding-left:30px; padding-right:30px; background-color:#FF5733; color:white; text-align:center;"> 
+		<a name='testimonials'><h2 id='homepage-portfolio-title' class='section-title'>Client Testimonials</h2></a>
+		See what my clients have to say about working with me by scrolling through testimonials with the left and right arrow keys (← + →)!
+			<div id="panel3" class="row" style="vertical-align:middle;">
+				<div id="testimonial1" class="mySlides" style="height:100%;">
+					<img src="portfolio-images/references/jonDollarsResized.png" 
+					class="panel3_img" pagespeed_url_hash="61604549" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+					style="margin:auto; display:block;
+					margin-top:10px;
+					width:700px;
+					" align="middle">
+					<br/><br/>
+				</div>
+				<div id="testimonial2" class="mySlides">
+					<div class="col-sm-1">
+						<img src="portfolio-images/references/mikeReference.png" class="panel3_img" pagespeed_url_hash="61604549" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+						style="margin:auto; display:block;
+						margin-top:10px;
+						" align="middle">
+						<br/><br/>
+					</div>
+					<div class="panel3_quote col-sm-5">
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>
+				<div id="testimonial3" class="mySlides">
+					<div class="col-sm-1">
+						<img src="portfolio-images/references/danReference.png" class="panel3_img" pagespeed_url_hash="61604549" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+						style="margin:auto; display:block;
+						margin-top:10px;
+						" align="middle">
+						<br/><br/>
+					</div>
+					<div class="panel3_quote col-sm-5">
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>				
+				<div id="testimonial4" class="mySlides">
+					<div class="col-sm-1">
+						<img src="portfolio-images/references/jesseCombined.png" class="panel3_img" pagespeed_url_hash="61604549" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+						style="margin:auto; display:block;
+						margin-top:10px;
+						" align="middle">
+						<br/><br/>
+					</div>
+					<div class="panel3_quote col-sm-5">
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>
+				<div id="testimonial5" class="mySlides">
+					<div class="col-sm-1">
+						<img src="portfolio-images/references/fabioReference.png" 
+						class="panel3_img" pagespeed_url_hash="61604549" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+						style="margin:auto; display:block;
+						margin-top:10px;
+						width:700px;
+						" align="middle">
+						<br/><br/>
+					</div>
+					<div class="panel3_quote col-sm-5">
+					</div>
+					<div class="col-sm-1">
+					</div>
+				</div>
+			  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" 
+			  style="width:100%; padding-top:30px; position:absolute;">
+				<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)" style="font-size:30px; 
+				 ">&#10094;</div>
+				<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)" style="font-size:30px;  
+				">&#10095;</div>
+				<span 
+				class="w3-badge demo w3-border w3-transparent w3-hover-white" 
+				onclick="currentDiv(1)"></span>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+				<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>				
+				<!-- <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span> -->
+			  </div>
+			
+			</div>
+			</div>
+					
+		<!-- <img src='portfolio-images/homepage.png' id='homepage-about-image'> -->
 
+	</div>
+	<script>addEventListener("keyup",function(e){if(e.keyCode==39){plusDivs(1);}
+		else if(e.keyCode==37){plusDivs(-1);}})
+		var slideIndex=1;showDivs(slideIndex);function plusDivs(n){showDivs(slideIndex+=n);}
+		function currentDiv(n){showDivs(slideIndex=n);}
+		function showDivs(n){var i;var x=document.getElementsByClassName("mySlides");var dots=document.getElementsByClassName("demo");if(n>x.length){slideIndex=1}
+		if(n<1){slideIndex=x.length}
+		for(i=0;i<x.length;i++){x[i].style.display="none";}
+		for(i=0;i<dots.length;i++){dots[i].className=dots[i].className.replace(" w3-white","");}
+		x[slideIndex-1].style.display="block";dots[slideIndex-1].className+=" w3-white";}</script>
 
 	<div id='homepage-portfolio' class='section'>
 
@@ -85,7 +198,7 @@
 
 	<div id='homepage-business' class='section'>
 
-		<a name='business'><h2 id='homepage-business-title' class='section-title'>Business</h2></a>
+		<a name='business'><h2 id='homepage-business-title' class='section-title'>Trading Algorithms</h2></a>
 
 		<div id='homepage-business-item-container'>
 			<a href='supportandresist.html'><img src='portfolio-images/supportandresist/SR_0.png' class='homepage-business-item-image'></a>
